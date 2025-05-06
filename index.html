@@ -91,6 +91,47 @@
         .share:hover{
             background-color: none;
         }
+
+        .get-button {
+      background-color: greenyellow;
+      border-radius: 15px;
+      color: palevioletred;
+      font-weight: bold;
+      padding: 5px 5px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+
+        .get-button:hover{
+            background-color: palevioletred;
+            color: lime;
+            font-weight: bold;
+            box-shadow: 0 0 10px palevioletred;
+
+        }
+
+        .social-icon{
+            color: pink; 
+            font-size: 21px;
+            transition: all 0.1s ease;
+        }
+        .social-icon:hover{
+            color: hotpink;
+            transform:scale(1.4);
+        }
+        .social-link {
+        font-size: smaller;
+        font-weight: bold;
+        color: palevioletred;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        }
+        .social-link:hover {
+        color: lightgreen;
+        }
+        
+        
    
 </style>
 
@@ -107,7 +148,7 @@
                 <span></span><br>
                 <br><br>
                 
-                <a href="get" style="background-color: greenyellow; border-radius: 15px; color: palevioletred; font-weight: bold;">&nbsp;&nbsp; Get &nbsp;&nbsp;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="get-button" href="#" onclick="alert('Hii. Im Rachel. Thank you for clicking!^u^'); return false;">&nbsp;&nbsp; Get &nbsp;&nbsp;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                  <span style="text-align: right;">
                     
                     <ul style="list-style-type: none;
@@ -138,23 +179,23 @@
 <table  border="1"; style="border-collapse: collapse; width: 300px; border-left-color: transparent; border-right-color: transparent; margin-left: auto; margin-right: auto; border-top-color: white; border-top: transparent;">
     <tr   style=" text-align: center; ">
         <td style="width: 75px;" ><h4 style="color: antiquewhite;">Socials</h4>
-            <p><a href="https://linktr.ee/Bwalie" style="color: pink;" class="fa-regular fa-address-card"></a></p>
-            <p><a style="font-size: smaller; font-weight: bold;" href="https://linktr.ee/Bwalie" target="_blank">bwalie</a></p>
+            <p><a href="https://linktr.ee/Bwalie"  class="fa-regular fa-address-card social-icon"></a></p>
+            <p><a class="socialbwalie-icon"  href="https://linktr.ee/Bwalie" target="_blank"><p style="font-size: 14px; font-weight: bold;">bwalie</p></a></p>
         </td>
-        <td style="border-top: none; width: 75px"><h4 style="color: antiquewhite;">Readme</h4>
-            <p><a  href="https://www.canva.com/design/DAGmUlv0WYs/a4dMwjINvm2jmRLY7bLLUA/edit?utm_content=DAGmUlv0WYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" style="color: pink;"class="fa-solid fa-paw"></a></p>
+        <td style="border-top: none; width: 75px"><h4 style="color: antiquewhite; font-size: 16px;">Readme</h4>
+            <p><a target="_blank"  href="https://www.canva.com/design/DAGmUlv0WYs/a4dMwjINvm2jmRLY7bLLUA/edit?utm_content=DAGmUlv0WYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton " style="font-size: 19px;" class="fa-solid fa-paw social-icon"></a></p>
 
             <p><a style="font-size: smaller; font-weight: bold;" href="https://www.canva.com/design/DAGmUlv0WYs/a4dMwjINvm2jmRLY7bLLUA/edit?utm_content=DAGmUlv0WYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">readme</a></p>
         </td>
         <td style="border-top: none; width: 75px"><h4 style="color: antiquewhite;">Kat!!</h4>
-            <p><a href="https://www.google.com/search?q=silly+cat+pic&sca_esv=1dda3acef72a6239&udm=2&biw=957&bih=948&ei=4E4XaIjiFKzDwPAPranrmAY&ved=0ahUKEwiI0rq62omNAxWsIRAIHa3UGmMQ4dUDCBE&uact=5&oq=silly+cat+pic&gs_lp=EgNpbWciDXNpbGx5IGNhdCBwaWMyBRAAGIAEMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI3CRQiQVYjCNwA3gAkAEAmAGQAaABhg2qAQQ0LjExuAEDyAEA-AEBmAISoALUD8ICBhAAGAcYHsICBxAAGIAEGAqYAwCIBgGSBwQzLjE1oAfBSbIHBDAuMTW4B44P&sclient=img" style="color: pink;" class="fa-solid fa-camera"></a></p>
+            <p><a target="_blank" href="https://www.google.com/search?q=silly+cat+pic&sca_esv=1dda3acef72a6239&udm=2&biw=957&bih=948&ei=4E4XaIjiFKzDwPAPranrmAY&ved=0ahUKEwiI0rq62omNAxWsIRAIHa3UGmMQ4dUDCBE&uact=5&oq=silly+cat+pic&gs_lp=EgNpbWciDXNpbGx5IGNhdCBwaWMyBRAAGIAEMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI3CRQiQVYjCNwA3gAkAEAmAGQAaABhg2qAQQ0LjExuAEDyAEA-AEBmAISoALUD8ICBhAAGAcYHsICBxAAGIAEGAqYAwCIBgGSBwQzLjE1oAfBSbIHBDAuMTW4B44P&sclient=img" style="font-size: 18px;" class="fa-solid fa-camera social-icon"></a></p>
 
             <p><a style="font-size:smaller; font-weight: bold;" href="https://www.google.com/search?q=silly+cat+pic&sca_esv=1dda3acef72a6239&udm=2&biw=957&bih=948&ei=4E4XaIjiFKzDwPAPranrmAY&ved=0ahUKEwiI0rq62omNAxWsIRAIHa3UGmMQ4dUDCBE&uact=5&oq=silly+cat+pic&gs_lp=EgNpbWciDXNpbGx5IGNhdCBwaWMyBRAAGIAEMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI3CRQiQVYjCNwA3gAkAEAmAGQAaABhg2qAQQ0LjExuAEDyAEA-AEBmAISoALUD8ICBhAAGAcYHsICBxAAGIAEGAqYAwCIBgGSBwQzLjE1oAfBSbIHBDAuMTW4B44P&sclient=img">catpic</a></p>
         </td>
         <td style="border-top: none; width: 75px"><h4 style="color: antiquewhite;">🎧</h4>
-            <p><a href="https://open.spotify.com/user/31sc5iu45qasd3oissfgy24dvo6y?si=b3df3b0c361340e9" style="color: pink;" class="fa-brands fa-spotify"></a></p>
+            <p><a href="https://open.spotify.com/user/31sc5iu45qasd3oissfgy24dvo6y?si=b3df3b0c361340e9" style="font-size: 18px;"class="fa-brands fa-spotify social-icon"></a></p>
 
-            <p><a style="font-size: smaller; font-weight: bold;" href="https://open.spotify.com/user/31sc5iu45qasd3oissfgy24dvo6y?si=b3df3b0c361340e9">katify</a></p>
+            <p><a target="_blank" style="font-size: smaller; font-weight: bold;"  href="https://open.spotify.com/user/31sc5iu45qasd3oissfgy24dvo6y?si=b3df3b0c361340e9" >katify</a></p>
         </td>
 
     </tr>
@@ -178,7 +219,7 @@
 
 <table border="0" style="margin-left: auto;margin-right: auto; width: 300px;" >
     <tr>
-        <td style="font-size:x-small; color:antiquewhite; ">You're logged in with a different account from the one that started this purchase. 🥰</td>
+        <td style="font-size:x-small; color:antiquewhite; ">Hello! This is a little portfolio I made, inspired by the look and feel of the App Store. Hope you like it! :3</td>
         
     </tr>
 </table>
@@ -194,10 +235,10 @@
 <table border="1"; style="border-collapse: collapse; border-top: transparent; border-left: transparent; border-right: transparent; margin-left: auto; margin-right: auto;">
     <tr >
         
-        <td><img style="width: 75px; border-radius: 10px;" src="crosscat.jpg">&nbsp;</td>
-        <td><img style="width: 75px; border-radius: 10px;" src="musiccat.jpg">&nbsp;</td>
-        <td><img style="width: 75px; height: 75px; border-radius: 10px;" src="f5765a961793757ba4db87e614e94f0e.jpg">&nbsp;</td>
-        <td><img style="width: 75px; height: 75px; border-radius: 10px;" src="meand him.jpg"></td>
+        <td><img style="width: 75px; border-radius: 10px;" src="catcat.jpg">&nbsp;</td>
+        <td><img style="width: 75px; border-radius: 10px;" src="catcat.jpg">&nbsp;</td>
+        <td><img style="width: 75px; height: 75px; border-radius: 10px;" src="catcat.jpg">&nbsp;</td>
+        <td><img style="width: 75px; height: 75px; border-radius: 10px;" src="catcat.jpg"></td>
     </tr>
 
 
@@ -221,7 +262,7 @@
 <table border="1" style="border-collapse: collapse; width: 310px; border-left: transparent; border-right: transparent; margin-left: auto; margin-right: auto;" >
     <tr>
         <th style="text-align: left; color: white; font-family: sans-serif;">Ratings & Reviews</th>
-        <td style="text-align: right; font-size: small; font-weight: bold;"><a href="See all">See all</a></td>
+        <td style="text-align: right; font-size: small; font-weight: bold;"><a onclick="alert('Thats not true at all what Michelle27nikepro said :('); return false;" href="See all">See all</a></td>
     </tr>
     <tr>
         <td style="text-align: center; "> <span style="font-size:50px; text-align: center;">4.4</span>
